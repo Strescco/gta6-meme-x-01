@@ -1,124 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="1440" viewBox="0 0 720 1440">
-<rect x="0" y="0" width="720" height="1440" fill="#111111"/>
-
-  <g>
-    <defs>
-      <linearGradient id="sunset" x1="0" y1="0" x2="0" y2="1">
-        <stop offset="0" stop-color="#4B2A72"/>
-        <stop offset="0.45" stop-color="#B83A7A"/>
-        <stop offset="0.8" stop-color="#FF7E3D"/>
-        <stop offset="1" stop-color="#FFC46B"/>
-      </linearGradient>
-    </defs>
-    <rect x="0" y="0" width="720" height="720" fill="url(#sunset)"/>
-    <circle cx="360" cy="430" r="120" fill="#FFD9A0" opacity="0.85"/>
-    <!-- skyline -->
-    <g fill="#241631">
-      <rect x="0" y="430" width="90" height="290"/>
-      <rect x="100" y="470" width="70" height="250"/>
-      <rect x="180" y="400" width="60" height="320"/>
-      <rect x="470" y="420" width="80" height="300"/>
-      <rect x="560" y="470" width="70" height="250"/>
-      <rect x="640" y="400" width="80" height="320"/>
-    </g>
-    <!-- palm silhouettes -->
-    <g stroke="#1D1029" stroke-width="10" stroke-linecap="round" fill="none">
-      <path d="M70 720 L70 430 M70 430 Q30 400 10 420 M70 430 Q60 390 40 380 M70 430 Q80 385 105 375 M70 430 Q110 405 130 420"/>
-      <path d="M660 720 L660 450 M660 450 Q625 420 605 440 M660 450 Q650 410 630 400 M660 450 Q670 405 695 395 M660 450 Q700 425 718 442"/>
-    </g>
-    <!-- helicopters with searchlights -->
-    <g fill="#1D1029">
-      <ellipse cx="180" cy="280" rx="42" ry="16"/>
-      <rect x="150" y="266" width="60" height="10" rx="5"/>
-      <ellipse cx="330" cy="250" rx="42" ry="16"/>
-      <rect x="300" y="236" width="60" height="10" rx="5"/>
-    </g>
-    <g fill="#FFF3C4" opacity="0.55">
-      <polygon points="180,296 150,470 210,470"/>
-      <polygon points="330,266 300,470 360,470"/>
-    </g>
-    <!-- neon VICE sign -->
-    <text x="600" y="330" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="900" font-style="italic" fill="#FF5DA2" stroke="#7A1040" stroke-width="2">VICE</text>
-    <!-- six gold wanted stars, exactly six -->
-    <polygon points="455.0,188.0 459.2,199.2 471.2,199.7 461.8,207.2 465.0,218.8 455.0,212.1 445.0,218.8 448.2,207.2 438.8,199.7 450.8,199.2" fill="#FFC93C" stroke="#7A5200" stroke-width="3" stroke-linejoin="round"/>
-    <polygon points="490.0,188.0 494.2,199.2 506.2,199.7 496.8,207.2 500.0,218.8 490.0,212.1 480.0,218.8 483.2,207.2 473.8,199.7 485.8,199.2" fill="#FFC93C" stroke="#7A5200" stroke-width="3" stroke-linejoin="round"/>
-    <polygon points="525.0,188.0 529.2,199.2 541.2,199.7 531.8,207.2 535.0,218.8 525.0,212.1 515.0,218.8 518.2,207.2 508.8,199.7 520.8,199.2" fill="#FFC93C" stroke="#7A5200" stroke-width="3" stroke-linejoin="round"/>
-    <polygon points="560.0,188.0 564.2,199.2 576.2,199.7 566.8,207.2 570.0,218.8 560.0,212.1 550.0,218.8 553.2,207.2 543.8,199.7 555.8,199.2" fill="#FFC93C" stroke="#7A5200" stroke-width="3" stroke-linejoin="round"/>
-    <polygon points="595.0,188.0 599.2,199.2 611.2,199.7 601.8,207.2 605.0,218.8 595.0,212.1 585.0,218.8 588.2,207.2 578.8,199.7 590.8,199.2" fill="#FFC93C" stroke="#7A5200" stroke-width="3" stroke-linejoin="round"/>
-    <polygon points="630.0,188.0 634.2,199.2 646.2,199.7 636.8,207.2 640.0,218.8 630.0,212.1 620.0,218.8 623.2,207.2 613.8,199.7 625.8,199.2" fill="#FFC93C" stroke="#7A5200" stroke-width="3" stroke-linejoin="round"/>
-    <!-- pink getaway car -->
-    <g>
-      <rect x="120" y="540" width="480" height="90" rx="38" fill="#E83E8C" stroke="#8E0F56" stroke-width="5"/>
-      <path d="M210 545 Q240 480 310 480 L430 480 Q480 490 500 545 Z" fill="#2A1B2E" stroke="#8E0F56" stroke-width="5"/>
-      <rect x="330" y="495" width="70" height="40" rx="8" fill="#9AD7FF" opacity="0.9"/>
-      <circle cx="215" cy="630" r="42" fill="#16121A" stroke="#3A3A3A" stroke-width="6"/>
-      <circle cx="215" cy="630" r="18" fill="#C9CDD6"/>
-      <circle cx="505" cy="630" r="42" fill="#16121A" stroke="#3A3A3A" stroke-width="6"/>
-      <circle cx="505" cy="630" r="18" fill="#C9CDD6"/>
-      <ellipse cx="590" cy="585" rx="18" ry="8" fill="#FFF6C9"/>
-    </g>
-    <!-- BUSTED overlay (V6): GTA-style RED, in the clear sky gap left of the
-         VICE sign so the sign stays fully legible; -$1000 below it with a
-         clear gap, well clear of the car roof and the people -->
-    <text x="305" y="318" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="900" fill="#E10600" stroke="#111111" stroke-width="8" paint-order="stroke" stroke-linejoin="round">BUSTED</text>
-    <text x="305" y="395" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="900" fill="#FFFFFF" stroke="#111111" stroke-width="4" paint-order="stroke" stroke-linejoin="round">-$1000</text>
-    <text x="360" y="100" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="900" fill="#FFFFFF" stroke="#111111" stroke-width="9" paint-order="stroke" stroke-linejoin="round" letter-spacing="-1">ME: 6 STARS, $0</text>
+<rect x="0" y="0" width="720" height="1440" fill="#000000"/>
+<defs><linearGradient id="sunset" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#4B2A72"/><stop offset="0.45" stop-color="#B83A7A"/>
+    <stop offset="0.8" stop-color="#FF7E3D"/><stop offset="1" stop-color="#FFC46B"/>
+  </linearGradient></defs>
+<rect x="0" y="0" width="720" height="720" fill="url(#sunset)"/>
+<circle cx="360" cy="430" r="120" fill="#FFD9A0" opacity="0.85"/>
+<polygon points="55,245 245,245 178,158 122,158" fill="#FFF3C4" opacity="0.55"/>
+<ellipse cx="150" cy="150" rx="46" ry="15" fill="#1D1029"/>
+<rect x="92" y="128" width="116" height="4" fill="#1D1029"/>
+<rect x="146" y="120" width="8" height="12" fill="#1D1029"/>
+<polygon points="465,205 655,205 588,118 532,118" fill="#FFF3C4" opacity="0.55"/>
+<ellipse cx="560" cy="110" rx="46" ry="15" fill="#1D1029"/>
+<rect x="502" y="88" width="116" height="4" fill="#1D1029"/>
+<rect x="556" y="80" width="8" height="12" fill="#1D1029"/>
+<rect x="0" y="480" width="70" height="240" fill="#241631"/>
+<rect x="70" y="520" width="60" height="200" fill="#241631"/>
+<rect x="130" y="460" width="55" height="260" fill="#241631"/>
+<rect x="600" y="470" width="55" height="250" fill="#241631"/>
+<rect x="655" y="520" width="65" height="200" fill="#241631"/>
+<path d="M 52 720 Q 65 610 78 510" fill="none" stroke="#1D1029" stroke-width="15" stroke-linecap="round"/>
+<path d="M 78 510 Q 26 476 -26 544" fill="none" stroke="#1D1029" stroke-width="9" stroke-linecap="round"/>
+<path d="M 78 510 Q 52 476 26 518" fill="none" stroke="#1D1029" stroke-width="9" stroke-linecap="round"/>
+<path d="M 78 510 Q 78 476 78 492" fill="none" stroke="#1D1029" stroke-width="9" stroke-linecap="round"/>
+<path d="M 78 510 Q 104 476 130 518" fill="none" stroke="#1D1029" stroke-width="9" stroke-linecap="round"/>
+<path d="M 78 510 Q 130 476 182 544" fill="none" stroke="#1D1029" stroke-width="9" stroke-linecap="round"/>
+<path d="M 672 720 Q 659 610 646 510" fill="none" stroke="#1D1029" stroke-width="15" stroke-linecap="round"/>
+<path d="M 646 510 Q 594 476 542 544" fill="none" stroke="#1D1029" stroke-width="9" stroke-linecap="round"/>
+<path d="M 646 510 Q 620 476 594 518" fill="none" stroke="#1D1029" stroke-width="9" stroke-linecap="round"/>
+<path d="M 646 510 Q 646 476 646 492" fill="none" stroke="#1D1029" stroke-width="9" stroke-linecap="round"/>
+<path d="M 646 510 Q 672 476 698 518" fill="none" stroke="#1D1029" stroke-width="9" stroke-linecap="round"/>
+<path d="M 646 510 Q 698 476 750 544" fill="none" stroke="#1D1029" stroke-width="9" stroke-linecap="round"/>
+<text x="600" y="330" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="44" font-style="italic" font-weight="900" fill="#FF5DA2" stroke="#7A1040" stroke-width="7" paint-order="stroke">VICE</text>
+<polygon points="455,188 459.2,199.22 471.17,199.75 461.79,207.21 464.99,218.75 455,212.14 445.01,218.75 448.21,207.21 438.83,199.75 450.8,199.22" fill="#FFC93C" stroke="#7A5200" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="490,188 494.2,199.22 506.17,199.75 496.79,207.21 499.99,218.75 490,212.14 480.01,218.75 483.21,207.21 473.83,199.75 485.8,199.22" fill="#FFC93C" stroke="#7A5200" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="525,188 529.2,199.22 541.17,199.75 531.79,207.21 534.99,218.75 525,212.14 515.01,218.75 518.21,207.21 508.83,199.75 520.8,199.22" fill="#FFC93C" stroke="#7A5200" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="560,188 564.2,199.22 576.17,199.75 566.79,207.21 569.99,218.75 560,212.14 550.01,218.75 553.21,207.21 543.83,199.75 555.8,199.22" fill="#FFC93C" stroke="#7A5200" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="595,188 599.2,199.22 611.17,199.75 601.79,207.21 604.99,218.75 595,212.14 585.01,218.75 588.21,207.21 578.83,199.75 590.8,199.22" fill="#FFC93C" stroke="#7A5200" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="630,188 634.2,199.22 646.17,199.75 636.79,207.21 639.99,218.75 630,212.14 620.01,218.75 623.21,207.21 613.83,199.75 625.8,199.22" fill="#FFC93C" stroke="#7A5200" stroke-width="3" stroke-linejoin="round"/>
+<g>
+    <rect x="120" y="545" width="480" height="80" rx="34" fill="#E83E8C" stroke="#8E0F56" stroke-width="5"/>
+    <path d="M 210 550 L 250 505 L 420 505 L 460 550 Z" fill="#2A1B2E"/>
+    <path d="M 262 512 L 300 512 L 300 545 L 262 545 Z" fill="#9AD7FF" opacity="0.9"/>
+    <circle cx="215" cy="630" r="42" fill="#111111"/><circle cx="215" cy="630" r="18" fill="#8A8A8A"/>
+    <circle cx="505" cy="630" r="42" fill="#111111"/><circle cx="505" cy="630" r="18" fill="#8A8A8A"/>
+    <circle cx="590" cy="585" r="12" fill="#FFF6C9" opacity="0.9"/>
   </g>
-  <g>
-    <rect x="0" y="720" width="720" height="720" fill="#E8DCC8"/>
-    <rect x="0" y="720" width="720" height="330" fill="#D9C6A5"/>
-    <!-- corkboard -->
-    <rect x="48" y="780" width="180" height="150" rx="8" fill="#B98A56" stroke="#7A5230" stroke-width="4"/>
-    <g fill="#FFF8E6"><rect x="66" y="800" width="40" height="52"/><rect x="118" y="800" width="40" height="52"/><rect x="170" y="800" width="40" height="52"/><rect x="66" y="864" width="40" height="52"/><rect x="118" y="864" width="40" height="52"/></g>
-    <!-- desk -->
-    <rect x="0" y="1150" width="720" height="290" fill="#8A5A33"/>
-    <rect x="0" y="1150" width="720" height="14" fill="#A9713F"/>
-    <!-- speech bubble rising OUT OF THE LAPTOP: it floats above the lid
-         and its tail points down to the lid's top edge, so the ghost's
-         face stays fully clear. His real rank-1 win poster inside. -->
-    <g>
-      <polygon points="160,1003 220,1003 190,1035" fill="#FFFFFF" stroke="#111111" stroke-width="5" stroke-linejoin="round"/>
-      <rect x="45" y="815" width="280" height="190" rx="22" fill="#FFFFFF" stroke="#111111" stroke-width="6"/>
-      <rect x="59" y="829" width="252" height="162" fill="#16181D" stroke="#111111" stroke-width="3"/>
-      <circle cx="185" cy="866" r="24" fill="#C41C83" stroke="#111111" stroke-width="4"/>
-      <circle cx="185" cy="862" r="12" fill="#FFFFFF"/>
-      <path d="M173 862 L173 874 Q179 868 185 874 Q191 868 197 874 L197 862 Z" fill="#FFFFFF"/>
-      <text x="185" y="908" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">You won 1st place</text>
-      <text x="185" y="942" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="900" fill="#FF7AB8">$1000</text>
-      <text x="185" y="966" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">Race a BTC trading bot live for 24 hours</text>
-      <text x="185" y="984" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#9AA0B0">@strescco</text>
-    </g>
-    <!-- laptop, rear view: back of the lid faces the viewer, no screen -->
-    <g>
-      <polygon points="115,995 295,980 305,1145 125,1158" fill="#23262E" stroke="#16121A" stroke-width="5" stroke-linejoin="round"/>
-      <rect x="100" y="1145" width="215" height="12" rx="4" fill="#565D6E"/>
-    </g>
-    <!-- cash + coins -->
-    <g>
-      <rect x="90" y="1240" width="120" height="52" rx="6" fill="#7FA36B" stroke="#3F6234" stroke-width="4" transform="rotate(-4 150 1266)"/>
-      <rect x="90" y="1240" width="120" height="52" rx="6" fill="none" stroke="#E8F0DC" stroke-width="3" transform="rotate(-4 150 1266)"/>
-      <ellipse cx="250" cy="1300" rx="26" ry="10" fill="#FFC93C" stroke="#8A6D00" stroke-width="3"/>
-      <ellipse cx="250" cy="1288" rx="26" ry="10" fill="#FFC93C" stroke="#8A6D00" stroke-width="3"/>
-      <ellipse cx="250" cy="1276" rx="26" ry="10" fill="#FFC93C" stroke="#8A6D00" stroke-width="3"/>
-    </g>
-    <!-- coffee -->
-    <g>
-      <ellipse cx="620" cy="1180" rx="34" ry="44" fill="#F5EFE2" stroke="#8A7A5A" stroke-width="4"/>
-      <path d="M652 1160 q26 18 0 40" fill="none" stroke="#8A7A5A" stroke-width="5"/>
-      <ellipse cx="620" cy="1170" rx="26" ry="10" fill="#6B4226"/>
-    </g>
-    
-  <g>
-    <circle cx="500" cy="1000" r="180" fill="#C41C83" stroke="#111111" stroke-width="12"/>
-    <path d="M 410 1084 L 410 988 C 410 922, 452 886, 500 886 C 548 886, 590 922, 590 988 L 590 1084 C 572 1062.4, 557.6 1098.4, 538.4 1084 C 519.2 1069.6, 509.6 1100.8, 500 1084 C 490.4 1100.8, 480.8 1069.6, 461.6 1084 C 442.4 1098.4, 428 1062.4, 410 1084 Z" fill="#FFFFFF" stroke="#111111" stroke-width="8.4" stroke-linejoin="round"/>
-    <polygon points="466.4,960.4 477.56,978.4 466.4,996.4 455.23999999999995,978.4" fill="#111111"/>
-    <polygon points="533.6,960.4 544.76,978.4 533.6,996.4 522.44,978.4" fill="#111111"/>
-    <path d="M 478.4 1021.6 Q 500 1038.4 521.6 1021.6" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round"/>
-    <circle cx="586.4" cy="937.6" r="36" fill="#C41C83" stroke="#111111" stroke-width="7.199999999999999"/>
-    <polygon points="586.4,917.2 591.4,930.7 605.8,931.3 594.5,940.2 598.4,954.1 586.4,946.2 574.4,954.1 578.3,940.2 567.0,931.3 581.4,930.7" fill="#FFFFFF"/>
-    <circle cx="586.4" cy="997.6" r="20.4" fill="#FFFFFF" stroke="#111111" stroke-width="6"/>
+<text x="305" y="318" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="900" fill="#E10600" stroke="#000000" stroke-width="12" paint-order="stroke" stroke-linejoin="round">BUSTED</text>
+<text x="305" y="395" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="900" fill="#FFFFFF" stroke="#000000" stroke-width="8" paint-order="stroke">-$1000</text>
+<text x="360" y="100" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="900" letter-spacing="-1" fill="#FFFFFF" stroke="#000000" stroke-width="6" paint-order="stroke" stroke-linejoin="round">ME: 6 STARS, $0</text>
+<rect x="0" y="720" width="720" height="720" fill="#E8DCC8"/>
+<rect x="0" y="720" width="720" height="330" fill="#D9C6A5"/>
+<rect x="0" y="1150" width="720" height="290" fill="#8A5A33"/>
+<rect x="0" y="1150" width="720" height="14" fill="#A9713F"/>
+<rect x="40" y="1010" width="170" height="130" rx="10" fill="#B98A56" stroke="#7A5230" stroke-width="4"/>
+<rect x="54" y="1024" width="52" height="42" rx="4" fill="#FFF8E6" stroke="#D9C6A5" stroke-width="2"/>
+<circle cx="80" cy="1028" r="4" fill="#C41C83"/>
+<rect x="118" y="1024" width="52" height="42" rx="4" fill="#FFF8E6" stroke="#D9C6A5" stroke-width="2"/>
+<circle cx="144" cy="1028" r="4" fill="#C41C83"/>
+<rect x="182" y="1024" width="52" height="42" rx="4" fill="#FFF8E6" stroke="#D9C6A5" stroke-width="2"/>
+<circle cx="208" cy="1028" r="4" fill="#C41C83"/>
+<rect x="86" y="1078" width="52" height="42" rx="4" fill="#FFF8E6" stroke="#D9C6A5" stroke-width="2"/>
+<circle cx="112" cy="1082" r="4" fill="#C41C83"/>
+<rect x="150" y="1078" width="52" height="42" rx="4" fill="#FFF8E6" stroke="#D9C6A5" stroke-width="2"/>
+<circle cx="176" cy="1082" r="4" fill="#C41C83"/>
+<g>
+    <polygon points="190,1000 340,992 350,1150 180,1158" fill="#23262E" stroke="#000000" stroke-width="5" stroke-linejoin="round"/>
+    <rect x="172" y="1145" width="196" height="12" rx="4" fill="#565D6E"/>
   </g>
-    <text x="360" y="800" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="900" fill="#FFFFFF" stroke="#111111" stroke-width="9" paint-order="stroke" stroke-linejoin="round" letter-spacing="-1">MY AGENT: 0 STARS, $1000</text>
-  </g><rect x="0" y="712" width="720" height="16" fill="#111111"/>
+<g>
+    <path d="M 67 805 L 303 805 A 22 22 0 0 1 325 827 L 325 953 A 22 22 0 0 1 303 975 L 278 975 L 262 1006 L 238 975 L 67 975 A 22 22 0 0 1 45 953 L 45 827 A 22 22 0 0 1 67 805 Z" fill="#FFFFFF" stroke="#000000" stroke-width="6" stroke-linejoin="round"/>
+    <rect x="59" y="817" width="252" height="146" rx="6" fill="#16181D"/>
+    <circle cx="185" cy="842" r="16" fill="#C41C83"/>
+    <path d="M 177 842 L 180 846 L 177 850 L 185 850 L 188 846 L 185 842 Z" fill="#FFFFFF"/>
+    <text x="185" y="888" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">You won 1st place</text>
+    <text x="185" y="920" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="900" fill="#FF7AB8">$1000</text>
+    <text x="185" y="942" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">Race a BTC trading bot live for 24 hours</text>
+    <text x="185" y="958" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#9AA0B0">@strescco</text>
+  </g>
+<g transform="rotate(-6 150 1266)">
+    <rect x="90" y="1240" width="120" height="52" rx="4" fill="#7FA36B" stroke="#3F6234" stroke-width="4"/>
+    <rect x="90" y="1258" width="120" height="16" fill="#E8F0D8" opacity="0.85"/>
+  </g>
+<ellipse cx="250" cy="1276" rx="34" ry="10" fill="#FFC93C" stroke="#7A5200" stroke-width="3"/>
+<ellipse cx="250" cy="1288" rx="34" ry="10" fill="#FFC93C" stroke="#7A5200" stroke-width="3"/>
+<ellipse cx="250" cy="1300" rx="34" ry="10" fill="#FFC93C" stroke="#7A5200" stroke-width="3"/>
+<g>
+    <path d="M 600 1180 L 640 1180 L 634 1246 A 10 10 0 0 1 624 1256 L 616 1256 A 10 10 0 0 1 606 1246 Z" fill="#F5EFE2" stroke="#8A7A5A" stroke-width="4"/>
+    <path d="M 640 1196 A 16 16 0 0 1 640 1228" fill="none" stroke="#8A7A5A" stroke-width="5"/>
+    <ellipse cx="620" cy="1180" rx="20" ry="6" fill="#6B4226"/>
+  </g>
+<circle cx="500" cy="1000" r="180" fill="#C41C83" stroke="#000000" stroke-width="12"/>
+<path d="M 410 1104.4 L 410 964 A 90 90 0 0 1 590 964 L 590 1104.4 A 30 21.6 0 0 0 530 1104.4 A 30 21.6 0 0 0 470 1104.4 A 30 21.6 0 0 0 410 1104.4 Z" fill="#FFFFFF" stroke="#000000" stroke-width="9.6" stroke-linejoin="round"/>
+<rect x="455.6" y="965.2" width="26.4" height="26.4" fill="#000000" transform="rotate(45 468.8 978.4)"/>
+<rect x="518" y="965.2" width="26.4" height="26.4" fill="#000000" transform="rotate(45 531.2 978.4)"/>
+<path d="M 480.8 1026.4 Q 500 1043.2 519.2 1026.4" fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round"/>
+<circle cx="620" cy="868" r="31.2" fill="#C41C83" stroke="#FFFFFF" stroke-width="4.8"/>
+<polygon points="620,848.66 624.78,861.43 638.4,862.02 627.73,870.51 631.37,883.65 620,876.12 608.63,883.65 612.27,870.51 601.6,862.02 615.22,861.43" fill="#FFFFFF"/>
+<circle cx="615.2" cy="925.6" r="14.4" fill="#FFFFFF" stroke="#000000" stroke-width="3.6"/>
+<text x="360" y="800" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="900" letter-spacing="-1" fill="#FFFFFF" stroke="#000000" stroke-width="5" paint-order="stroke" stroke-linejoin="round">MY AGENT: 0 STARS, $1000</text>
+<rect x="0" y="712" width="720" height="16" fill="#000000"/>
 </svg>

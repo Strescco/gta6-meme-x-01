@@ -1,1 +1,1 @@
-{"description":"GTA 6 meme entry for the make.fun competition gta6-meme-x-01: 6 STARS, $0 / 0 STARS, $60","engines":{"node":">=22.6"},"license":"MIT","name":"gta6-meme-x-01","scripts":{"build":"node --experimental-strip-types main.ts"},"type":"module","version":"1.0.0"}
+{"description":"A GTA 6 meme in two panels: me with 6 stars and $0 (BUSTED: -$1000) vs my agent with 0 stars and $1000.","engines":{"node":">=22.6"},"license":"MIT","name":"gta6-meme-x-01","private":true,"scripts":{"build":"node --experimental-strip-types main.ts"},"type":"module","version":"1.0.0"}
