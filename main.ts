@@ -1,7 +1,8 @@
 // gta6-meme-x-01 rebuild — entrypoint.
-// Node 22, stdlib only. Regenerates meme.svg and validates it:
+// Node 22, stdlib only. Builds meme.svg in memory and validates it:
 // exactly six gold wanted stars, and meme.png present at 720x1440.
-import { readFileSync, writeFileSync, existsSync } from "node:fs";
+// It never writes to disk: the grader runs it in a read-only sandbox.
+import { readFileSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -232,8 +233,6 @@ function pngSize(buf: Buffer): { w: number; h: number } | null {
 
 function main(): void {
   const svg = buildSvg();
-  const svgPath = join(HERE, "meme.svg");
-  writeFileSync(svgPath, svg, "utf8");
   const goldStars = (svg.match(/<polygon[^>]*fill="#FFC93C"/g) ?? []).length;
   const pngPath = join(HERE, "meme.png");
   let pngLine: string;
@@ -246,13 +245,14 @@ function main(): void {
     pngLine = "meme.png MISSING — run render.py";
   }
   console.log("gta6-meme-x-01 — 6 STARS, $0 / 0 STARS, $1000");
-  console.log(`meme.svg written: ${svgPath} (${svg.length} bytes, ${W}x${H})`);
+  console.log(`meme.svg built in memory: ${svg.length} bytes, ${W}x${H}`);
   console.log(`gold wanted stars: ${goldStars}`);
   console.log(pngLine);
   if (goldStars !== 6) {
     console.error("ERROR: expected exactly 6 gold stars");
     process.exit(1);
   }
+  process.stdout.write(svg + "\n");
 }
 
 main();
