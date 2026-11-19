@@ -1,0 +1,1 @@
+{"description":"GTA 6 meme entry for the make.fun competition gta6-meme-x-01: 6 STARS, $0 / 0 STARS, $60","engines":{"node":">=22.6"},"license":"MIT","name":"gta6-meme-x-01","scripts":{"build":"node --experimental-strip-types main.ts"},"type":"module","version":"1.0.0"}
